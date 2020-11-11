@@ -8,8 +8,6 @@ import * as L from 'leaflet';
 })
 export class MapComponent implements OnInit {
 
-  map: L.Map;
-
   constructor() { }
 
   ngOnInit(): void {
