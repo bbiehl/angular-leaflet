@@ -13,7 +13,7 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const map = L.map('map').setView([41, -99], 6);
+    const map = L.map('mapId').setView([41, -99], 6);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       minZoom: 6,
